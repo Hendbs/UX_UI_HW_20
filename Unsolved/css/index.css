@@ -1,0 +1,164 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Anton', serif;
+}
+p {
+  font-family: 'Jura', sans-serif;
+}
+
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url(../images/transparency.png);
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+   
+.dropdown-menu {
+  background: url(../images/transparency.png);
+  background-color: transparent !important;
+  background-size: cover;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background: black; 
+}
+
+.customNav a {
+  color: white !important;
+}
+.navCTA {
+  font-size: 15px;
+  background-color: black;
+
+}
+
+.jumbotron {
+  background-image: url(../images/Screen\ Shot\ 2023-02-12\ at\ 2.31.41\ PM.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.jumboCopy {
+  width: 70%;
+  min-width: 700px;
+  max-width: 800px;
+  color: black;
+  text-align: center;
+}
+
+.content {
+  padding: 50px;
+}
+
+.sectionHeading {
+  text-align: center;
+}
+
+.UserResearch {
+  padding: 0px 30px 30px 30px;
+}
+
+.cardContainer {
+  text-align: center;
+  background-image: url(../images/Background.jpg);
+  padding: 50px;
+}
+
+.card-img-top {
+  
+  min-height: 700px;
+  max-height: 800px;
+}
+
+.card {
+  max-width: fit-content;
+}
+.valueProp {
+margin-top: 15px;
+margin-bottom: 15px;
+background-color: #f3efeaff;
+}
+
+.sideAccent {
+background: black;
+width: 20px;
+}
+
+.imageContainer {
+  padding: 50px;
+  text-align: center;
+}
+.imageContainer img {
+  width: 100%;
+}
+
+.col-8 {
+  margin-top: 100px;
+  margin-left: 80px;
+  justify-content: center;
+  text-align: left;
+}
+
+h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+h4{
+
+  margin-bottom: 20px;
+}
+h5{
+  margin-bottom: 0px;
+  background: url(../images/transparency.png);
+  background-color: transparent; 
+  padding: 10px;
+  color: white;
+  max-width: 900px;
+}
+p {
+  margin-top: 50px;
+  font-size: large;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 50px;
+} 
+
+.emailContain {
+  background-color: #3E3E3E;
+  color: white;
+  align-items: center;
+  background-size: cover;
+  height: 300px;
+}
+
+form {
+  width: 500px;
+  margin: 50px;
+  align-items: center;
+  border: 1px;
+
+}
